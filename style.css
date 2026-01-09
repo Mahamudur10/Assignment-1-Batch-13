@@ -53,28 +53,84 @@ body {
 .nav-btn button:hover {
     background-color: #3d7a52;
 }
+
+/* Notes section */
+.notes-section {
+    padding: 0px 120px;
+}
+
+.main-notes-section {
+    border: 1px solid black;
+    max-width: 1200px;
+    height: 348px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.heading-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+
+}
+
+.heading-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.card-box {
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.card-box .card {
+    width: 322px;
+    height: 300px;
+    padding: 25px;
+    border: 1px solid black;
+}
+.card h3{
+    font-size: 24px;
+    Color:#001931;
+    font-weight: 600;
+    line-height: 25px;
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
 /* brain section */
-.brain-section{
-    width: 100%;
+.brain-section {
     padding: 120px;
 }
-.main-brain{
+
+.main-brain {
     display: flex;
     max-width: 1200px;
     height: 600px;
     margin: 0 auto;
     gap: 60px;
 }
-.brain-right{
+
+.brain-right {
     margin: 102px 0px;
 }
-.section-massege{
+
+.section-massege {
     color: #469165;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
 }
-.brain-right h2{
+
+.brain-right h2 {
     color: #001931;
     font-size: 48px;
     font-weight: 700;
@@ -82,23 +138,73 @@ body {
     font-style: bold;
     margin-top: 16px;
 }
-.brain-right p{
+
+.brain-right p {
     color: #627382;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     margin-top: 16px;
 }
-.list-itme{
+
+.list-itme {
     margin-top: 40px;
 }
-.list-itme li{
+
+.list-itme li {
     list-style: none;
     color: #001931;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
+
+}
+/* Early access section */
+.early-acces-section{
+    padding: 0px 120px 120px 120px;
+}
+.main-early-access{
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
     
+}
+.main-early-access h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+.main-early-access p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.e-a-s-btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.e-a-s-btn:hover {
+    background-color: #3d7a52;
+}
+
+.comment{
+    display: block;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+
 }
 
 /* footer section */
