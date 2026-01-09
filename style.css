@@ -57,9 +57,9 @@ body {
 /* banner section */
 .banner {
     min-height: 600px;
-    height: 90vh;
-    background: linear-gradient(rgba(10, 25, 41, 0.411), rgba(10, 25, 41, 0.616)), 
-                url('assets/hero-bg.png');
+    height: 75vh;
+    background: linear-gradient(rgba(10, 25, 41, 0.411), rgba(10, 25, 41, 0.616)),
+        url('assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -67,27 +67,65 @@ body {
     align-items: center;
     text-align: center;
     color: #ffffff;
-    padding: 0 20px;
+    
 }
+
 .main-banner {
-    max-width: 800px;
+    max-width: 1300px;
+    height: 380px;
 }
-.banner-btn button{
+.early-acces{
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 1);
+    color: #30B868;
+    border-radius: 1000px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.head-text{
+    width: 770px;
+    height: 200px;
+    margin-top: 16px;
+}
+.head-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.green-higlight{
+    color: #30B868;
+}
+.head-text small{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    margin-top: 35px;
+}
+.banner-btn button {
     padding: 12px 16px;
     color: #FFFFFF;
     border-radius: 4px;
-}
-.banner-btn-1{
-    background-color: #469165;
-    border: none;
     
 }
+
+.banner-btn-1 {
+    background-color: #469165;
+    border: none;
+    margin-right: 8px;
+
+}
+
 .banner-btn-1:hover {
     background-color: #3d7a52;
 }
-.banner-btn-2{
+
+.banner-btn-2 {
     background: none;
     border: 1px solid rgba(255, 255, 255, 1);
+    margin-left: 8px;
 }
 
 /* Notes section */
@@ -129,9 +167,10 @@ body {
     width: 322px;
     height: 220px;
     padding: 25px;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
 }
-.card img{
+
+.card img {
     background: #F95555;
     border-radius: 50%;
     color: #FFFFFF;
@@ -196,7 +235,8 @@ body {
 }
 
 .list-itme {
-    margin-top: 40px;
+    margin-top: 20px;
+    
 }
 
 .list-itme li {
@@ -205,7 +245,9 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-
+    display: flex;
+    gap: 6px;
+    padding: 5px;
 }
 
 /* Early access section */
